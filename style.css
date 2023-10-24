@@ -1,0 +1,44 @@
+*{
+    font-family: 'Press Start 2P', sans-serif;
+    color: whitesmoke;
+ 
+}
+img{
+    border-radius: 50%;
+    background-size: cover;
+    object-fit: cover;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./image/84905.jpg);
+    background-size: cover;
+}
+header {
+    display: flex;
+    text-align: center; 
+    gap:50px;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px;
+}
+
+ul li{
+    line-height: 50px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
